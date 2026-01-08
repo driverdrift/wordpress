@@ -7,6 +7,7 @@ fi
 set -e
 
 apt update
+apt install dhuadhua
 apt install nginx -y
 apt install mariadb-server -y
 apt install php-fpm php php-mysqli php-json php-curl  -y
